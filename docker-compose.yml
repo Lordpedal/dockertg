@@ -1,0 +1,13 @@
+version: "2"
+services:
+  docker-telegram:
+    image: lodpedal/dockertg
+    container_name: DockerTG
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TELEGRAM_NOTIFIER_BOT_TOKEN=xxxxxxxxx:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx #Token_Telegram
+      - TELEGRAM_NOTIFIER_CHAT_ID=xxxxxxxx #ID_Telegram
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    restart: always
