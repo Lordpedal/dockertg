@@ -1,7 +1,7 @@
 version: "2"
 services:
   docker-telegram:
-    image: lodpedal/dockertg
+    image: lordpedal/dockertg
     container_name: DockerTG
     environment:
       - PUID=1000
