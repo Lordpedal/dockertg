@@ -47,7 +47,7 @@ Estos parámetros están separados por dos puntos e indican ``<external>: <inter
 | `PGID=1000` | GID de nuestro usuario. Para saber nuestro ID ejecutar en terminal: `id` |
 | `TELEGRAM_NOTIFIER_BOT_TOKEN=` | Añadimos el Token de nuestro Bot Telegram |
 | `TELEGRAM_NOTIFIER_CHAT_ID=` | Añadimos el ID de Telegram consultar en @Lordpedalbot |
-| `/var/run/docker.sock:/var/run/docker.sock:ro` | Ruta donde lee la configuración Dockers |
+| `/var/run/docker.sock:/var/run/docker.sock:ro` | Ruta donde lee la configuración |
 | `restart: always` | Habilitamos que tras reiniciar la maquina anfitrion vuelva a cargar el servicio |
 
 > ... la culminación de un fin es el comienzo de una realidad.
